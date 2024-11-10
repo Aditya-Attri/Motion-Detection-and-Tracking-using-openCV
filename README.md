@@ -7,16 +7,16 @@ Python libraries required:
 3. Datetime
 
 Analysing all windows:
-1. Gray Frame
+1. Gray Frame:
    In grey pictures there is only one intensity value as compared to RGB image where three intensity values are present. There images are blur so that we can calculate intensity difference in grayscale easily.
    
 2. Difference Frame:
    It shows the intensity difference of first frame to the current frame.
 
-3. Threshold Frame
+3. Threshold Frame:
    If intensity difference > 32, then pixel will be white in color.
    If intensity difference < 32, then pixel will be black in color.
 
-4. Color Frame
+4. Color Frame:
    Color images inside green contour as these particular objects are moving.
    
